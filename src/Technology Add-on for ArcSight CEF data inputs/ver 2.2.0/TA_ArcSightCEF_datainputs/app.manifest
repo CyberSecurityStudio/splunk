@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0.0", 
   "info": {
-    "title": "Support Add-on for ArcSight CEF data models", 
+    "title": "Technology Add-on for HP ArcSight CEF data inputs", 
     "id": {
       "group": null, 
-      "name": "SA-ArcSight_datamodels", 
-      "version": "1.0.2"
+      "name": "TA_ArcSightCEF_datainputs", 
+      "version": "2.2.0"
     }, 
     "author": [
       {
@@ -15,7 +15,7 @@
       }
     ], 
     "releaseDate": "March 17, 2019", 
-    "description": "Provides a mechanism for field name mappings when exporting raw log data from Splunk in CEF format.", 
+    "description": "This technology add-on (TA) is designed to perform the granular field extractions and consistent data normalizations on HP ArcSight Common Event format (CEF) event logs.", 
     "classification": {
       "intendedAudience": "IT Professionals", 
       "categories": ["DevOps","Utility"], 
@@ -45,7 +45,7 @@
 		"Splunk_SA-ArcSight_Integrator":">1.0.0",
 		"Splunk_TA-ArcSight_Integrator_for_EB_or_Kafka":">1.0.0",
 		"Splunk_TA-ArcSight_Integrator_for_SmartConnectors":">1.0.0"
-  }, 
+  },
   "platformRequirements": null
 }
 # The following optional sections can be customized and added to the main manifest:
